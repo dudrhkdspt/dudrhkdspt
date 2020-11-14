@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+
+/*헤더*/
+#header{
+    text-align:center;
+    font-size:14px;
+    margin:20px 50px;
+    position:relative;
+    height:43px;
+    line-height:43px;
+}
+
+#header h1{
+    width:110px;
+    height:43px;
+    background:url(../images/sp_com.png) no-repeat -300px -5px;
+    text-indent:-9999px;
+    position:absolute;
+    left:0;
+    top:0;
+}
+#header h1 a{
+    display:block;
+}
+
+.gnb{display:inline-block;}
+.gnb li{
+    float:left;
+    margin:0 20px;
+}
+.gnb li a{}
+
+.util{
+    font-size:12px;
+    position:absolute;
+    right:0;
+    top:0;
+}
+.util li{
+    float:left;
+}
+.util li::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:6px;
+    background:#333;
+    margin:0 5px;
+}
+.util li:last-child::after{
+    display:none;
+}
+.util li a{}
+
+
+
+/*푸터*/
+#footer{
+    background:#4C5459;
+    color:#fff;
+    font-size:13px;
+}
+
+.fTop{
+    background:#383F43;
+    height:40px;
+    line-height:40px;
+    padding:10px 0;
+}
+
+.fMenu{
+    float:left;
+}
+.fMenu li{
+    float:left;
+}
+.menuBar li::after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#fff;
+    margin:0 5px;
+}
+.menuBar li:last-child::after{
+    display:none;
+}
+.fMenu li a{color:#fff;}
+
+.csFamily{float:right;}
+.csFamily>div{
+    padding:0 15px;
+    float:left;
+    height:40px;
+}
+.csBox{
+    background:#2A3033;
+}
+.csBox span{
+    vertical-align:middle;
+    font-weight:bold;
+}
+.csBox .csNum{
+    font-size:22px;
+    margin-left:10px;
+    font-weight:normal;
+}
+
+.familySite{
+    width:150px;
+    background:#fff url(../images/arrow.png) no-repeat 95% center;
+    color:#333;
+    margin-left:10px;
+}
+
+.fBottom{
+    text-align:center;
+    padding:50px 0;
+}
+.fLogo{
+    width:130px;
+    height:50px;
+    margin:0 auto;
+    margin-bottom:30px;
+    background:url(../images/sp_com.png) no-repeat -150px 0;
+    text-indent:-9999px;
+}
+
+.fInfo{
+    display:inline-block;
+    margin-bottom:10px;
+}
+.fInfo li{
+    float:left;
+}
+
+.fBottom p{}
+
+
+
+

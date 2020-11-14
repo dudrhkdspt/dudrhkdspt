@@ -1,0 +1,211 @@
+@charset "utf-8";
+
+/*웹뷰안보임*/
+.panel,.mCon03Menu04,.mMainCon04{display:none;}
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+    /*리셋*/
+    body{min-width:auto;}
+    .inner{width:auto;}
+    
+    /*안보임처리*/
+    .gnb,.util,.mainCon02,.con03Menu04,.mainCon03>div:hover p,.mainCon04,.fLogo,.fInfo{display:none;}
+    
+    /*보임처리*/
+    .mCon03Menu04,.mMainCon04{display:block;}
+    .panel{
+        display:block;
+        width:16px;
+        height:15px;
+        background:url(../images/sp_com.png) no-repeat -227px -98px;
+        background-size:400px;
+        position:absolute;
+        right:0;
+        top:7px;
+        text-indent:-9999px;
+    }
+    .panel a{
+        height:100%;
+        display:block;
+    }
+    
+    /*헤더*/
+    #header{
+        height:auto;
+        margin:10px 20px;
+    }
+    #header h1{
+        width:70px;
+        height:28px;
+        background-size:400px;
+        background-position:0 0;
+        position:static;
+    }
+    
+    /*메인슬라이더*/
+    .mainSlider{
+        padding:45% 0;
+        margin:0;
+        height:auto;
+        background-size:cover;
+    }
+    .sliderTxt{
+        padding-top:0;
+        font-size:11px;
+    }
+    .sliderTxt h2{font-size:14px;}
+    .sliderBtn{
+        width:13px;
+        height:23px;
+        background-size:400px;
+        background-position:-64px -30px;
+    }
+    .prevBtn{left:10px;}
+    .nextBtn{
+        right:10px;
+        background-position:-79px -30px;
+    }
+    
+    /*메인컨텐츠01*/
+    .mainCon01{padding:20px 0;}
+    .mainCon01 ul{display:block;}
+    .mainCon01 li{
+        width:33.33%;
+        margin:10px 0;
+    }
+    .mainCon01 li span{
+        width:33px;
+        height:33px;
+        background-size:400px;
+        margin:0 auto;
+        margin-bottom:5px;
+    }
+    .mainCon01 li:hover span{
+        background-position-y:-57px;
+    }
+    .mainCon01 li:hover .con01Icon03{
+        background-position-y:-55px;
+    }
+    .mainCon01 li:hover p{color:#333;}
+    .con01Icon01{
+        background-position:-1px -57px;
+    }
+    .con01Icon02{
+        background-position:-37px -57px;
+    }
+    .con01Icon03{
+        background-position:-74px -55px;
+    }
+    .con01Icon04{
+        background-position:-109px -57px;
+    }
+    .con01Icon05{
+        background-position:-145px -57px;
+    }
+    .con01Icon06{
+        background-position:-181px -57px;
+    }
+    
+    /*메인컨텐츠03*/
+    .mainCon03{
+        padding:0 10px;
+    }
+    .mainCon03>div{
+        width:calc(50% - 5px);
+        height:auto;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    .mainCon03>div h3,.mainCon03 .con03Menu04 h3{
+        padding:45% 0;
+        font-size:15px;
+    }
+    .mainCon03 .con03Menu02{margin-right:0;}
+    
+    /*mainCon04*/
+    .mMainCon04{padding:0 10px;}
+    .mMainCon04 li{
+        background:#f2f0ed;
+        height:45px;
+        line-height:45px;
+        margin-bottom:10px;
+        font-size:13px;
+    }
+    .mMainCon04 li h4{
+        width:15%;
+        display:inline-block;
+        vertical-align:top;
+        color:#2d5b79;
+        text-align:center;
+    }
+    .mMainCon04 li a{
+        width:70%;
+        display:inline-block;
+        vertical-align:top;
+        white-space:nowrap;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        padding-left:5%;
+    }
+    .mMainCon04 li p{}
+    
+    /*mainCon05*/
+    .mainCon05{
+        margin-top:0;
+        padding:20px 10px;
+        padding-bottom:10px;
+    }
+    .con05Menu li{
+        width:calc(50% - 5px);
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+    .con05Menu li:nth-child(2n){
+        margin-right:0;
+    }
+    .con05Txt{font-size:0;}
+    .con05Txt h2{font-size:15px;}
+    
+    
+    /*푸터*/
+    .fTop{
+        height:auto;
+        line-height:30px;
+        text-align:center;
+    }
+    .fMenu{
+        width:250px;
+        float:none;
+        margin:0 auto;
+        margin-bottom:10px;
+    }
+    .fMenu li{
+        float:none;
+        display:inline-block;
+    }
+    .fMenu li:nth-child(3)::after{display:none;}
+    .csFamily{
+        line-height:40px;
+        font-size:13px;
+        float:none;
+        display:inline-block;
+    }
+    .csBox .csNum{font-size:13px;}
+    .csFamily .familySite{
+        width:auto;
+        padding-right:40px;
+    }
+    .fBottom{padding:30px 0;}
+}
+
+
+
+
+
+
+
+
+
+
+
