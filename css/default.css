@@ -1,0 +1,52 @@
+*, *:after, *:before{margin:0; padding:0; box-sizing:border-box; }
+
+body{
+    color:#333;
+    font-family:'NanumSquare', sans-serif;
+    background: #000;
+}
+body,h1,h2,h3,h4,h5,h6,p,dl,dd{
+    margin:0;    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'NanumSquare';
+}
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+.inner{
+    width:1200px;
+    margin:0 auto;
+    position: relative;
+}
+
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+button {
+    background: none;
+    border:0;
+    border-radius: 0;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#wrap {
+    position:relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+}
